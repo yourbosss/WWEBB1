@@ -7,17 +7,18 @@ body {
   
   @font-face {
     font-family: "BlackSignaturePersonalUseOnlyRegular";
-    src: url(sources/fonts/BlackSignaturePersonalUseOnlyRegular.otf);
+    src: 
+      url(scr/fonts/BlackSignaturePersonalUseOnlyRegular.otf);
   }
   
   @font-face {
     font-family: "ChangaOne-Regular";
-    src: url(sources/fonts/ChangaOne-Regular.ttf);
+    src: url(fonts/ChangaOne-Regular.ttf);
   }
   
   @font-face {
     font-family: "Roboto-Regular";
-    src: url(sources/fonts/Roboto-Regular.ttf);
+    src: url(fonts/Roboto-Regular.ttf);
   }
   
   .header-section {
@@ -98,3 +99,454 @@ body {
     height: auto;
   }
   
+.hero-section {
+  background-image: url("/scr/image/background-of-1-block.jpg"); 
+  background-size: cover; 
+  background-position: center; 
+  width: 100%; 
+  height: calc(100vw * (580 / 1440)); 
+  overflow: hidden;
+  margin-top: 15px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: flex-start; 
+  text-align: left;
+  padding-left: 140px; 
+  padding-top: 16px; 
+  opacity: 1; 
+}
+.text-container {
+  margin-bottom: 32px;
+}
+
+.hero-section h1 {
+  font-size: 64px;
+  margin: 0; 
+  font-weight: 400;
+  font-family: "ChangaOne-Regular";
+}
+
+.highlight {
+  color: #8A53FF; 
+}
+
+.hero-section p {
+  font-size: 24px;
+  margin: 10px 0; 
+  font-family: "Roboto-Regular";
+  color: #434343;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px; 
+  text-align: left;
+}
+
+.button-wrapper {
+  display: flex; 
+  align-items: center; 
+  text-align: left; 
+}
+.share-button {
+  border-radius: 12px; 
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  background-color: #8A53FF;
+  color: white;
+  cursor: pointer;
+  font-family: "Roboto-Regular";
+}
+
+.share-button:hover {
+  background-color: #6a5acd; 
+}
+
+.highlight-image {
+  vertical-align: middle; 
+  margin-left: 10px; 
+}
+
+.highlight-text {
+  margin-left: 5px; 
+  vertical-align: middle; 
+}
+
+.featured-destination {
+  display: flex;
+  align-items: flex-start; 
+  text-align: left; 
+  padding-left: 140px; 
+  margin-top: 100px; 
+}
+
+.featured-destination img {
+  width: calc(540px * (100vw / 1440)); 
+  height: auto; 
+  border-radius: 8px; 
+}
+
+.featured-destination .text-container {
+  padding-left: 70px; 
+  margin-top: 0;
+}
+
+.featured-destination h2 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #8A53FF; 
+}
+
+.featured-destination h3 {
+  font-family: "ChangaOne-Regular";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: #434343;
+}
+
+.featured-destination p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #434343;
+}
+
+.featured-destination .button-container-2 {
+  display: flex;
+  gap: 10px; 
+  text-align: left;
+}
+
+.featured-destination .button-wrapper-2-block {
+  display: flex; 
+  align-items: center; 
+  text-align: left; 
+}
+
+.featured-destination .now-image {
+  vertical-align: middle; 
+}
+
+.featured-destination .now-text {
+  margin-left: 5px; 
+  vertical-align: middle; 
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #8A53FF;
+}
+
+.adventures-section {
+  text-align: center; 
+  margin-top: 100px; 
+}
+
+.adventures-section h2 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #8A53FF;
+}
+
+.adventures-section h3 {
+  font-size: 36px; 
+  margin: 10px 0; 
+  font-family: "ChangaOne-Regular";
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+  color: #434343;
+}
+
+.adventure-cards {
+  display: flex; 
+  justify-content: flex-start; 
+  padding-left: 150px; 
+  margin: 64px 0;
+}
+
+.adventure-card {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.adventure-card img {
+  border-radius: 8px; 
+  width: 90%; 
+  height: auto; 
+}
+
+.adventure-card h4 {
+  margin: 10px 0; 
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  font-family: "ChangaOne-Regular";
+  color: #434343;
+}
+
+.adventure-card a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: none; 
+  color: #8A53FF; 
+}
+
+.community-section {
+  position: relative; 
+  padding: 40px; 
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('src/image/Community-image.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  z-index: -1; 
+}
+
+.community-section h2 {
+  text-align: center; 
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #8A53FF;
+}
+
+.community-section h3 {
+  margin: 10px 0; 
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  font-family: "ChangaOne-Regular";
+  padding-bottom: 30px;
+  color: #434343;
+}
+
+.community-section h4 {
+  margin: 10px 0; 
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  font-family: "ChangaOne-Regular";
+  color: #434343;
+}
+
+.community-section p {
+  margin: 10px 0; 
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  padding-bottom: 20px;
+  font-family: "Roboto-Regular";
+  color: #434343;
+}
+
+.travel-form {
+  max-width: 512px; 
+  margin: 0 auto; 
+  background: white; 
+  padding: 30px; 
+  border-radius: 8px; 
+}
+
+input[type="text"], select, textarea {
+  width: 100%; 
+  padding: 10px; 
+  margin-bottom: 15px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  color:#000000;
+}
+
+textarea {
+  height: 100px; 
+  font-family: "Roboto-Regular";
+}
+
+.submit-button {
+  background-color: #8A53FF; 
+  color: white; 
+  border: none; 
+  padding: 16px 80px; 
+  border-radius: 4px; 
+  cursor: pointer; 
+}
+
+.recent-entries {
+  margin: 0 auto; 
+  padding-left: 140px; 
+  padding-right: 140px; 
+  margin-top: 80px; 
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.09px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #8A53FF;
+}
+
+h3 {
+  margin: 10px 0; 
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  font-family: "ChangaOne-Regular";
+  padding-bottom: 30px;
+  color: #434343;
+}
+
+.featured-entry {
+  display: flex; 
+  margin-bottom: 40px; 
+}
+
+.entry-main {
+  flex: 1; 
+  margin-right: 20px; 
+  margin-bottom: 20px;
+  border-radius: 8px; 
+  background-color: #F9F9F9;
+}
+
+.entry-main img {
+  width: calc(440px * (100vw / 1440)); 
+  height: auto; 
+}
+
+.entry-text {
+  display: flex; 
+  flex-direction: column; 
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h4 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "ChangaOne-Regular";
+  color: #434343;
+}
+
+.text-with-button {
+  display: flex; 
+  align-items: center; 
+}
+
+.entry-text p {
+  margin: 0; 
+  margin-top: -16px;
+  flex: 1; 
+  font-size: 16px;
+  font-weight: 400;
+  color: #576074;
+}
+
+.entry-text a {
+  margin-left: 20px;
+  margin-top: -32px;
+}
+
+.entry-list {
+  flex: 1; 
+}
+
+.story-item {
+  display: flex; 
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px; 
+  background-color: #F9F9F9;
+  margin-bottom: 20px; 
+}
+
+.story-item img {
+  width: 200px; 
+  height: auto; 
+  border-radius: 8px; 
+  margin-right: 15px; 
+}
+
+.item-content {
+  flex: 1; 
+}
+
+.item-content h4 {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "ChangaOne-Regular";
+}
+
+.item-content p {
+  margin-top: -16px; 
+  size: 12;
+  font-family: "Roboto-Regular";
+  color: #576074;
+}
+
+.item-content a {
+  size: 16;
+  color: #8A53FF; 
+  text-decoration: none; 
+}
+
+.footer-section{
+  padding: 0 140px;
+}
+
+.footer-elements-row {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 0 20px; 
+  color: #939EB4;
+}
+
+.footer-menu {
+  display: flex;
+  gap: 20px; 
+}
+
+.footer-menu a {
+  padding-top: 8px;
+  text-decoration: none; 
+  color: #939EB4;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.footer-menu a.active {
+  padding-top: -0px;
+}
