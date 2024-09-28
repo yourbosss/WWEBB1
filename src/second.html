@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="secondstyle.css">
+    <title>Talking Travel</title>
+</head>
+<body>
+
+<header class="header-section">
+    <div class="header-elements-row">
+        <div class="logo">
+            <h1>Talking</h1>
+            <h2>Travel</h2>
+        </div>
+        <nav class="header-menu">
+            <a href="index.html">Home</a>
+            <a href="second.html" class="active">Story</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact Us</a>
+            <div class="header-icons">
+                <div class="divider"></div>
+                <img src="image/Header-search-icon.svg" alt="IconSearchHeader" class="icon">
+                <img src="image/Header-profile.svg" alt="IconSearchProfile" class="icon">
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main class="main-content">
+    <section class="popular-destinations">
+        <div class="content-section">
+            <div class="text-section">
+                <h2>POPULAR DESTINATIONS</h2>
+                <h3>Hello Switzerland!</h3>
+            </div>
+            <div class="avatar-section">
+                <img src="image/Avatar.png" alt="Avatar" class="avatar">
+                <div class="author">
+                    <p>Darrell Steward<br/></p>
+                    <p2>Author / Photographer</p2>
+                </div>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="image/Article-hero-image.jpg" alt="The Matterhorn" class="main-image">
+            <div class="play-button">
+                <span class="play-text">The Matterhorn</span>
+                <a href="#"><img src="image/Play-hero-button.svg" class="play-video" alt="Play Video"></a>
+            </div>
+        </div>
+        <h4>Our Swiss adventure story</h4>
+        <p>Location location location! Zermatt Switzerland offers majestic landscapes that cannot be seen elsewhere.
+             The Matterhorn for example. This peak is a sight to behold and seeing it up close is more magical
+              than we've ever imagined. 'Want to enjoy a nice and cozy Swiss breakfast! Well, Zermatt will 
+              never fail you.</p>
+        
+        <div class="destination-content">
+            <div class="image-column">
+                <img src="image/Winter-adventure-story.jpg" alt="Winter" class="destination-image">
+            </div>
+            <div class="image-column">
+                <img src="image/Mountains-adventure-story.jpg" alt="Mountains" class="destination-image">
+                <img src="image/Sunset-adventure-story.jpg" alt="Sunset" class="destination-image">
+            </div>
+            
+            <div class="quote-section">
+                <div class="quotation-mark">“</div>
+                <div class="quote">One of the best hikes we’ve done so far...
+                    <p>As one of the alpine countries, landlocked Switzerland with her mountains has to compete not only with her neighbours but with other destinations. There are, e.g., no coastal resorts.</p>
+                    <p>The advantage is that tourism in Switzerland benefits from a large diversity of beautiful landscapes in a relatively small space.</p>
+                    <button>View full gallery</button>
+                </div>
+            </div>            
+        </div>
+        <p>The advantage is that tourism in Switzerland benefits of a large diversity of beautiful landscapes
+             in a relatively small space, offering many possibilities for various activities all the year 
+            round, in all seasons, although primarily in summer and winter. The offers of nature as well as 
+            culture are manifold, but unfortunately price levels throughout the country are high, and this 
+            can discourage many people from visiting. Despite this major drawback, millions of visitors 
+            from all over the world arrive every year.</p>
+        <h4>Highlights</h4>
+        <div class="photo-gallery">
+            <div class="photo-item">
+                <img src="image/Barns.jpg" alt="The barns built in the 13th and 14th century">
+                <p>The barns built in the 13th and 14th century</p>
+            </div>
+            <div class="photo-item">
+                <img src="image/Bernina-express.jpg" alt="Riding the amazing Bernina Express">
+                <p>Riding the amazing Bernina Express</p>
+            </div>
+            <div class="photo-item">
+                <img src="image/Cable-car.jpg" alt="The Matterhorn glacier cable car ride">
+                <p>The Matterhorn glacier cable car ride</p>
+            </div>
+        </div>
+        
+        <div class="disclaimer">
+            <h6>Disclaimer</h6>
+            <p>
+                The COVID-19 pandemic has dealt a severe blow to the tourism business in Switzerland. Although it is a minor position
+                in the Swiss export balance, it is nevertheless of considerable importance for those regions of the country that attract
+                domestic and foreign visitors. As a consequence of the lockdown measures, combined with close borders and travel
+                bans, tourism collapsed and only briefly and partly recovered in summer. Its future is uncertain and depends on people's
+                (future guests') attitudes and decisions as much as on the economy, political measures and, of course, the progress of
+                the pandemic.
+            </p>
+        </div>
+    </section>
+
+    <section class="community-section">
+        <div class="background-image"></div>
+        <h2>LET'S BUILD A COMMUNITY</h2>
+        <h3>Join our next destination</h3>
+        <form class="travel-form">
+            <h4>Share your travels</h4>
+            <p>Suggest a new travel destination that you want to see and we will put it in our blog.</p>
+            <input type="text" name="destination-name" placeholder="Destination Name" required>
+            <select name="country" required>
+                <option value="" disabled selected>Select a country</option>
+                <option value="Russia">Russia</option>
+                <option value="Japan">Japan</option>
+                <option value="Korea">Korea</option>
+                <option value="USA">USA</option>
+            </select>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <select name="shooting-category" required>
+                <option value="" disabled selected>Select a category</option>
+                <option value="art">Art</option>
+                <option value="nature">Nature</option>
+                <option value="science">Science</option>
+                <option value="education">Education</option>
+            </select>
+            <textarea name="description" placeholder="Describe what kind of photos you want to focus on" required></textarea>
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </section>
+
+</main>
+
+<footer class="footer-section">
+    <div class="footer-elements-row">
+        <p>&copy; 2022 Talking Travel. All Rights Reserved.</p>
+        <nav class="footer-menu">
+            <a href="index.html">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </div>
+</footer>
+
+</body>
+</html>
